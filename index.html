@@ -5,23 +5,24 @@
 			#mainarea{
 				width:100%;
 				height:100%;
-				background:blue;
+				background:;
 				
 			}
 			#toparea{
 				width:1500px;
-				height:20px;
+				height:30px;
 				background:red;
 				
 				
 			}
+							
 								#toparea a{
 									margin:20px 0px 0px 400px;
 								}
 			#toparea1{
 				width:1500px;
 				height:150px;
-				background:#cda466;
+				background:#daa440;
 				
 				
 			}
@@ -40,17 +41,19 @@
 			#titlearea{
 				width:1200px;
 				height:150px;
-				background:brown;
+				background:;
 				float:right;
 				
 			}
 			#titlearea h1{
 				margin:25px 0px 0px 240px;
 				font:bold 50px gineva helvetica sarif;
+				color:#ffc0aa;
 			}
 			#titlearea h2{
 				margin:15px 0px 0px 240px;
 				font:bold 40px gineva helvetica sarif;
+				color:#ffc0aa;
 			}
 			#toparea2{
 				width:1500px;
@@ -58,12 +61,26 @@
 				background:#6757ab;
 				
 			}
+			
 			#toparea2 ul li{
 				float:left;
-		        margin:0;
+		        margin:15px 0px 0px 100px;
 				color:brown;
+				
 			}
-			#toparea2{
+			#toparea2 ul li a{
+				 text-decoration:none;
+				color:pink;
+				
+				}
+				#toparea2 ul li a:hover{
+					color:green;
+					background:pink;
+					padding:15px 35px 15px 35px ;
+					border-radius:10%;
+					}
+			#toparea2 ul{
+					list-style:none;
 					
 				}
 								/*#toparea2 ul li a:link,#toparea2 ul li a:visited{
@@ -124,22 +141,22 @@
 				}
 				#box2{
 				width:300px;
-				height:380px;
+				height:350px;
 				background:#bcb440;
 				float:left;
-				margin:698px 0px 0px 0px;
+				margin:700px 0px 0px 0px;
 				}
 				
 			#toparea5{
 				width:1500px;
 				height:410px;
-				background:#cdab66;
+				background:#ccccbb;
 				
 				
 			}
 				#box3{
 				width:410px;
-				height:390px;
+				height:400px;
 				background:#bda000;
 				float:left;
 			
@@ -151,6 +168,7 @@
 										}
 				#toparea5 h1{
 					color:red;
+					padding-top:20px;
 				}
 							#sms{
 									width:800px;
@@ -167,12 +185,13 @@
 			#event{
 				width:1470px;
 				height:1000px;
-				background:#6bcda6;
+				background:#cabbb6;
 				padding-left:30px;
 				
 			}
 			#event h1{
 					color:red;
+					padding-top:30px;
 				}
 			.ebox{
 				width:250px;
@@ -188,7 +207,7 @@
 			#administration{
 				width:1450px;
 				height:450px;
-				background:#bbb537;
+				background:#ccbbc7;
 				padding:25px;
 				
 			}
@@ -197,14 +216,29 @@
 				}
 				.adbox{
 					width:400px;
-					height:350px;
-					background:#ccdd0e;
+					height:360px;
+					background:#cccbb1;
 					float:left;
-					margin:20px 40px ;
+					margin:10px 40px ;
 				}
 								.adbox img{
 											width:400px;
 											height:320px;
+									}
+									.adbox img hover{
+											
+											transition-property:transform;
+											transition-duration:3s;
+									}
+									.adbox h4{
+											margin:0px 0px 0px 125px;
+											
+											
+									}
+									.adbox h5{
+											margin:0px 0px 0px 140px;
+										
+											
 									}
 			#map{
 				width:1500px;
@@ -215,7 +249,8 @@
 			}
 			#map h1{
 					color:red;
-					margin-top:5px;
+					margin-top:px;
+					padding-top:15px;
 				}
 				#map iframe{
 					width:100%;
@@ -224,14 +259,22 @@
 				}
 			#scroll{
 				width:1500px;
-				height:25px;
+				height:80px;
 				background:#667dff;
 				
 			}
 				#scroll marquee{
-					scrollamount:100;
-					scrolldelay:2s;
+					scroll-amount:12;
+					scrolldelay:1s;
 					behavior:scroll;
+					direction:right;
+				}
+				#scroll h4{
+							color:pink;
+							font:bold 35px helvetica ;
+							padding:0px;
+							margin-top:15px;
+							
 				}
 		</style>
 	</head>
@@ -379,12 +422,18 @@
 				<h1 align="center"> ADMINISTRATION</h1>
 				<div class="adbox">
 						<img src="adm1.jpg" />
+						<h4>Mr Naresh Mahato</h4>
+						<h5>(Voice Principal)</h5>
 				</div>
 				<div class="adbox">
 						<img src="adm2.jpg" />
+						<h4>Miss Rima Rathod</h4>
+						<h5>(Voice Principal)</h5>
 				</div>
 				<div class="adbox">
 						<img src="adm3.jpg" />
+						<h4>Mr Varun Prasad</h4>
+						<h5>(voice counseler)</h5>
 				</div>
 			</div>
 			<div id="map">
@@ -392,7 +441,7 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.654180494767!2d86.2456830145385!3d22.778211631133363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e2af77d4f425%3A0xa3ae45e5108c79f6!2z4KS54KS_4KSyIOCkn-ClieCkqiDgpLjgpY3gpJXgpYLgpLIsIOCknOCkruCktuClh-CkpuCkquClgeCksA!5e0!3m2!1shi!2sin!4v1637501781296!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
 			<div id="scroll">
-				<marquee>estd : 1980 hilltopschooledu@gmail.com</marquee>
+				<marquee><h4>@estd : 1980    hilltopschooledu@gmail.com</h4></marquee>
 			</div>
 		</div>
 		
